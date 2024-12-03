@@ -19,9 +19,9 @@ onMounted(() => {
   //   notify(response.message)
   // })
   //private channel
-  echo.private(`alarm.${currentUser.value}`).listen('AlarmEvent', (response) => {
-    notify(response.message)
-  })
+  // echo.private(`alarm.${currentUser.value}`).listen('AlarmEvent', (response) => {
+  //   notify(response.message)
+  // })
 })
 </script>
 
